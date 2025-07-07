@@ -50,3 +50,7 @@ echo Starting Services ...
 start "connect" Start_Connect.bat
 start "search" Start_Search.bat
 start "world" Start_World.bat
+IF EXIST ..\..\modules\catseyexi\scripts\arciela-bot\MessageHandler.py (
+    echo [%date% %time%] Starting Message Handler...
+    start Start_MessageHandler.bat
+)
