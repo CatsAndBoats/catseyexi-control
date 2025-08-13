@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map-elshimo"
 title Zone 7 - Elshimo Uplands, Elshimo Lowlands
 cd ..\..
 :onCrash

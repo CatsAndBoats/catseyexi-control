@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map-bastok"
 title Zone 2 - Derfland, Gustaberg
 cd ..\..
 :onCrash

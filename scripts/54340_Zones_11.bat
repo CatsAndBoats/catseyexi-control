@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map-cop"
 title Zone 11 - Tavnazian Archipelago
 cd ..\..
 :onCrash

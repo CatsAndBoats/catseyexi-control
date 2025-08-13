@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map-jeuno"
 title Zone 5 Qufim, Norvallen
 cd ..\..
 :onCrash

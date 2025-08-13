@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map-no-go"
 title Zone 13 - No Go Zones
 cd ..\..
 :onCrash

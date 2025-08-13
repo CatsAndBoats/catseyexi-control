@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map-windurst"
 title Zone 6 - Argoneau, LiTelor, Kolshushu, Sarutabaruta
 cd ..\..
 :onCrash

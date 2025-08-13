@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map-sky"
 title Zone 8 - Tu'Lia (Sky)
 cd ..\..
 :onCrash

@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map-dynamis"
 title Zone 12 - Dynamis, Abyssea
 cd ..\..
 :onCrash

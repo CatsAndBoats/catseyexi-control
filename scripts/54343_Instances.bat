@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map-instances"
 title Instanced Zones
 cd ..\..
 :onCrash

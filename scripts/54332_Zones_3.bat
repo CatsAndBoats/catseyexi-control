@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map-sandoria"
 title Zone 3 - Ronfaure, Zulkheim
 cd ..\..
 :onCrash

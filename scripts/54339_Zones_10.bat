@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map-wotg"
 title Zone 10 - Wings of the Goddess
 cd ..\..
 :onCrash

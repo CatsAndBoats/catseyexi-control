@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map-kuzotz-volbow"
 title Zone 1 - Kuzotz, Volbow
 cd ..\..
 :onCrash

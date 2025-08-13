@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map-xarcabard"
 title Zone 4 Valdeaunia, Fauregandi
 cd ..\..
 :onCrash

@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map-residential-korroloka"
 title Mog House, Korroloka Tunnel
 cd ..\..
 :onCrash

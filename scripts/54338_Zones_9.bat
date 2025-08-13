@@ -1,4 +1,5 @@
 @echo off
+set "CEXI_MAP_ID=map_toau"
 title Zone 9 - Treasures of Aht Urhgan
 cd ..\..
 :onCrash
