@@ -1,8 +1,16 @@
 @echo off
 title Message Handler
-cd ..\..
+
 :onCrash
 echo [%date% %time%] Restarting Message Handler...
-py modules/catseyexi/scripts/arciela-bot/MessageHandler.py
+
+:: Jump into arciela-bot folder (relative to this script’s location)
+pushd "%~dp0..\..\modules\catseyexi\scripts\arciela-bot"
+
+:: Run bot.py with the right Python
+"C:\Program Files\Python312\python.exe" bot.py
+
+popd
+
 echo ...
 GOTO onCrash
