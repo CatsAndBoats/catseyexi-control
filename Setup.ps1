@@ -30,15 +30,15 @@ $currentIP = ($configLine -split " ")[2].Trim()
 
 Write-Host "CatsEyeXI Control Configuration"
 Write-Host "-------------------------------"
-Write-Host "1) 108.44.45.69 (PROD)"
-Write-Host "2) $currentIP (external/TEST)"
+Write-Host "1) 100.4.171.10 (PROD)"
+Write-Host "2) 100.4.171.11 (TEST)"
 Write-Host "3) 127.0.0.1 (local)"
 Write-Host ""
 $selection = Read-Host -Prompt "Please select the IP Address to set for startup "
 if ($selection -eq '1') {
-    $newIP = "108.44.45.69"
+    $newIP = "100.4.171.10"
 } elseif ($selection -eq '2') {
-    $newIP = $currentIP
+    $newIP = "100.4.171.11"
 } elseif ($selection -eq '3') {
     $newIP = "127.0.0.1"
 } else {
