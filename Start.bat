@@ -57,3 +57,4 @@ start "world" Start_World.bat
 start Start_MessageHandler.bat
 start Start_CrashMon.bat
 start Start_GMTools.bat
+start Start_PatchNotesBot.bat
